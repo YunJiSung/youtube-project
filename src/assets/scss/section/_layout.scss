@@ -8,6 +8,8 @@
     background-color: var(--white);
     border-right: 1px solid var(--black600);
     color: var(--black);
+
+
 }
 
 #main {
@@ -34,6 +36,17 @@
             @include underline;
             text-decoration-color: var(--black300);
         }
+    }
+
+}
+
+@media (max-width: 800px) {
+    #header {
+        left: -250px;
+    }
+
+    #main {
+        padding-left: 0;
     }
 
 }

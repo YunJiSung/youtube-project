@@ -10,13 +10,13 @@ export const menuText = [
         icon: <CiAirportSign1 />,
         src: "/"
     }, {
-        title: "오늘의 여행지 탐험",
+        title: "오늘의 추천 픽!!",
         icon: <CiAirportSign1 />,
         src: "/today"
     }, {
         title: "유명 유튜버",
         icon: <CiAirportSign1 />,
-        src: "/youtuber"
+        src: "/traveler"
     }
 ]
 

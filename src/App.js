@@ -1,9 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
+import Today from './pages/Today'
+import Traveler from './pages/Traveler'
 import Header from './components/section/Header'
 import Main from './components/section/Main'
 import Footer from './components/section/Footer'
+import Channel from './pages/Channel'
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <Main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/today" element={<Today />} />
+          <Route path="/traveler" element={<Traveler />} />
+          <Route path="/channel/:channelID" element={<Channel />} />
         </Routes>
       </Main>
       <Footer />

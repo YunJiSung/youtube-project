@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Youtuber = () => {
     return (
-        <section id='traveler'>
+        <section id='travelerPage'>
             <h2>오늘의 추천 픽!!!</h2>
             <div className='traveler__inner'>
                 {travelerText.map((traveler, key) => (
@@ -13,7 +13,6 @@ const Youtuber = () => {
                             <Link to={`/channel/${traveler.channelId}`}>
                                 <img src={traveler.img} alt={traveler.author} />
                             </Link>
-
                         </div>
                         <div className='traveler__info'>{traveler.author}</div>
                     </div>

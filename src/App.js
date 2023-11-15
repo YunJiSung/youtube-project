@@ -7,6 +7,7 @@ import Header from './components/section/Header'
 import Main from './components/section/Main'
 import Footer from './components/section/Footer'
 import Channel from './pages/Channel'
+import Search from './pages/Search'
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/today" element={<Today />} />
           <Route path="/traveler" element={<Traveler />} />
-          <Route path="/channel/:channelID" element={<Channel />} />
+          <Route path="/channel/:channelId" element={<Channel />} />
+          <Route path="/search/:searchId" element={<Search />} />
         </Routes>
       </Main>
       <Footer />

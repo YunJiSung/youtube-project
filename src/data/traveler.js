@@ -75,29 +75,79 @@ export const travelerText = [
         channelId: "UCSxhYq6K0mxF24SmMGeNNQA",
         channelAddress: "https://www.youtube.com/@jaeye0nyy"
     }, {
-        img: "",
-        author: "Joe튜브",
-        channelId: "UCag-vLxfCjAUNebW9gA0yRg",
-        channelAddress: "https://www.youtube.com/@joetubekorea/videos"
+        img: "https://yt3.googleusercontent.com/ytc/APkrFKawTJLoIklT4WuCJYcBsv9-oDVG_OckTKMcTcPSsA=s176-c-k-c0x00ffffff-no-rj",
+        author: "초마드 CHOMAD",
+        channelId: "UCvuwlY4fWkWMuzRkj5MAK9Q",
+        channelAddress: "https://www.youtube.com/channel/UCvuwlY4fWkWMuzRkj5MAK9Q"
     }, {
-        img: "",
-        author: "Joe튜브",
-        channelId: "UCag-vLxfCjAUNebW9gA0yRg",
-        channelAddress: "https://www.youtube.com/@joetubekorea/videos"
+        img: "https://yt3.googleusercontent.com/1OgPMGXTuFveBbgMeR4Yl9H1awNU_K8d7t2DpkPK4JgiTmfFEmjUhuQuXbU7u41T2FoYnYsK=s176-c-k-c0x00ffffff-no-rj",
+        author: "장슨생 jangteacher",
+        channelId: "UC1uoQwHK5e5gw0CYdQeX5IA",
+        channelAddress: "https://www.youtube.com/@heyrime_"
     }, {
-        img: "",
-        author: "Joe튜브",
-        channelId: "UCag-vLxfCjAUNebW9gA0yRg",
-        channelAddress: "https://www.youtube.com/@joetubekorea/videos"
+        img: "https://yt3.googleusercontent.com/eFX3iT8j05ON8O7JVeALbHWiu-JzqyNZkdoWQcXLhcK0iAuRK6cv4TMWSuW-urAnimx-3_-YEQ=s176-c-k-c0x00ffffff-no-rj",
+        author: "미니멀유목민",
+        channelId: "UCKnPpfGzTEIHKkUyfxpYPxA",
+        channelAddress: "https://www.youtube.com/channel/UCslBuOyn9Df1M3HjBaG377g"
     }, {
-        img: "",
-        author: "Joe튜브",
-        channelId: "UCag-vLxfCjAUNebW9gA0yRg",
-        channelAddress: "https://www.youtube.com/@joetubekorea/videos"
+        img: "https://yt3.googleusercontent.com/ytc/APkrFKYGgf7lfOvNFQK9AywE2_-lwFDRY4gTOhhOdAlo9Q=s176-c-k-c0x00ffffff-no-rj",
+        author: "가든의 세계여행",
+        channelId: "UC8GVX05oeuw4vTWve7QYULw",
+        channelAddress: "https://www.youtube.com/channel/UC8GVX05oeuw4vTWve7QYULw"
     }, {
-        img: "",
-        author: "Joe튜브",
-        channelId: "UCag-vLxfCjAUNebW9gA0yRg",
-        channelAddress: "https://www.youtube.com/@joetubekorea/videos"
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
+    }, {
+        img: "https://yt3.googleusercontent.com/HXdnN3ECD88dKHKNrqtyvDKLd1qg6-rdYWJeSvfVP1jqc_F_vVRnUqQvyGfwOt1iTHnlg0ZXR7Q=s176-c-k-c0x00ffffff-no-rj",
+        author: "하나네의하루ハナネイハル",
+        channelId: "UCcJd2cA9l0m78CM0bIxI94Q",
+        channelAddress: "https://www.youtube.com/channel/UC0uwfqFKr9CpzYev9UWFSuQ"
+    }, {
+        img: "https://yt3.googleusercontent.com/nMF5leo9imQbVZOkGGs8JAp0El7l_jL_RIO1gZGL-G00jNg27CVldR1yI-Dtj0e365znmt-OZg=s176-c-k-c0x00ffffff-no-rj",
+        author: "오사카에사는사람들TV",
+        channelId: "UCsNfSIKbJ9QBAegU-2BnlXA",
+        channelAddress: "https://www.youtube.com/@osaka544"
+    }, {
+        img: "https://yt3.googleusercontent.com/W-Xmmrv9GAeXu_cLTKeiZWVztEIKNGCF9PnjK9UsO3Ex2ST7dgTGacRkdpBAIyawKYZHyIwv2w=s176-c-k-c0x00ffffff-no-rj",
+        author: "Travel Alone Idea",
+        channelId: "UCpu43g-rAn-c71-eoeG_RPg",
+        channelAddress: "https://www.youtube.com/c/TravelAloneIdea"
+    }, {
+        img: "https://yt3.googleusercontent.com/eFX3iT8j05ON8O7JVeALbHWiu-JzqyNZkdoWQcXLhcK0iAuRK6cv4TMWSuW-urAnimx-3_-YEQ=s176-c-k-c0x00ffffff-no-rj",
+        author: "미니멀유목민",
+        channelId: "UCKnPpfGzTEIHKkUyfxpYPxA",
+        channelAddress: "https://www.youtube.com/channel/UCslBuOyn9Df1M3HjBaG377g"
+    }, {
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
+    }, {
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
+    }, {
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
+    }, {
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
+    }, {
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
+    }, {
+        img: "https://yt3.googleusercontent.com/pU7qlSm-1wG1bViNvQe9PM603TtIWzHiOmZxAQvf6KqmulGwXDcve1hrAGHiwHgUf3OF8cCvyw=s176-c-k-c0x00ffffff-no-rj",
+        author: "호정이는 여행중",
+        channelId: "UCsTbc9ZmxgdzZM-8q-b6yug",
+        channelAddress: "https://www.youtube.com/channel/UCsTbc9ZmxgdzZM-8q-b6yug"
     },
 ]

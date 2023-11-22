@@ -141,3 +141,195 @@
         padding-top: 40px;
     }
 }
+
+/* Swiper */
+// .swiper-container {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .swiper-slide {
+//     text-align: center;
+//     font-size: 18px;
+//     background: #fff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// /* Video Card */
+// .video {
+//     display: flex;
+//     flex-direction: column;
+//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//     transition: 0.3s;
+//     width: 100%;
+// }
+
+// .video:hover {
+//     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+// }
+
+// .video__thumb {
+//     position: relative;
+//     padding-top: 56.25%;
+//     /* 16:9 Aspect Ratio */
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+// .video__thumb .play__icon {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     color: white;
+// }
+
+// .video__info {
+//     padding: 15px;
+// }
+
+// .video__info .title {
+//     font-size: 18px;
+//     font-weight: bold;
+// }
+
+// .video__info .info {
+//     font-size: 14px;
+//     color: grey;
+// }
+
+/* VideoSlider Section */
+// .video__slider {
+//     background-color: white;
+//     padding: 20px;
+//     margin-bottom: 20px;
+//     border-radius: 10px;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+// }
+
+// /* VideoSlider Title */
+// .video__slider h2 {
+//     font-size: 20px;
+//     margin: 0;
+//     color: #007bff;
+//     /* Blue color for titles */
+// }
+
+// /* Swiper Container */
+// .mySwiper {
+//     overflow: hidden;
+// }
+
+// /* Swiper Slide */
+// .swiper-slide {
+//     background-color: #fff;
+//     border-radius: 10px;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//     display: flex;
+//     flex-direction: column;
+//     overflow: hidden;
+//     margin-right: 20px;
+// }
+
+// /* Video Thumbnail */
+// .video__thumb {
+//     position: relative;
+//     padding-top: 56.25%;
+//     /* 16:9 aspect ratio */
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     cursor: pointer;
+//     transition: transform 0.2s ease-in-out;
+// }
+
+// .video__thumb:hover {
+//     transform: scale(1.05);
+// }
+
+// /* Video Info */
+// .video__info {
+//     padding: 10px;
+//     flex-grow: 1;
+// }
+
+// /* Video Title */
+// .title {
+//     font-size: 18px;
+//     margin: 0;
+// }
+
+// .title a {
+//     color: #333;
+//     text-decoration: none;
+//     transition: color 0.2s ease-in-out;
+// }
+
+// .title a:hover {
+//     color: #007bff;
+// }
+
+// /* Video Author */
+// .info .author {
+//     font-size: 14px;
+//     color: #777;
+//     text-decoration: none;
+//     transition: color 0.2s ease-in-out;
+// }
+
+// .info .author:hover {
+//     color: #007bff;
+// }
+
+// video__slider
+.video__slider {
+    .video {
+        .video__thumb {
+
+            a {
+                display: block;
+                cursor: pointer;
+                width: 100%;
+                padding-bottom: 56.25%;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .video__info {
+            background-color: rgba(255, 222, 222, 0.376);
+            padding: 14px;
+            border: 1px solid rgba(255, 222, 222, 0.694);
+
+            .title {
+                @include line-one;
+                font-size: 16px;
+            }
+
+            .info {
+                display: flex;
+                justify-content: space-between;
+                color: var(--black300);
+
+                .author {
+                    @include line-one;
+                    font-size: 14px;
+                    text-decoration: underline;
+                    text-underline-position: under;
+
+                    &:hover {
+                        color: var(--black100);
+                    }
+                }
+
+                .date {
+                    white-space: nowrap;
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+}

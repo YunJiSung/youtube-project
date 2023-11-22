@@ -1,8 +1,8 @@
-.heder__logo {
+.header__logo {
     border-bottom: 1px solid var(--black500);
 
     a {
-        display: flex;
+        display: flex !important;
         padding: 6px 10px;
         margin: 10px;
 
@@ -162,6 +162,21 @@
                 width: 20px;
                 height: 20px;
             }
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header__logo {
+        padding-top: 84px;
+
+        a {
+            position: fixed;
+            left: 0;
+            top: -5px;
+            background-color: var(--white);
+            width: 239px;
         }
     }
 }

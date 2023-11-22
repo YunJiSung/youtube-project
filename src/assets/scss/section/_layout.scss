@@ -8,7 +8,7 @@
     background-color: var(--white);
     border-right: 1px solid var(--black600);
     color: var(--black);
-
+    background-color: var(--white);
 
 }
 
@@ -41,12 +41,31 @@
 }
 
 @media (max-width: 800px) {
-    #header {
-        left: -250px;
+    #root {
+        padding: 100px;
     }
+
+    #header {
+        left: -260px;
+        transition: left 0.3s ease-in;
+
+        &.show {
+            left: 0;
+            transition: left 0.3s ease-in;
+
+        }
+
+    }
+
+
 
     #main {
         padding-left: 0;
+    }
+
+    #footer {
+        width: 100%;
+        margin-left: 0;
     }
 
 }

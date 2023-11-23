@@ -1,7 +1,7 @@
 export const todayText = [
     {
         img: "https://i.ytimg.com/vi/0JLnY3-ZtXU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGCMZXnMmviYTHt_FVSE48FEuWWQ",
-        title: "주변 친한 사람들이 이민을 가기 시작했습니다...너무 슬프네요",
+        title: "제가 그렇게 잘못했나요? 인도 다시 가자는 말에 친구를 잃었습니다.",
         desc: "안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 조튜브를 소개합니다. 안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 조튜브를 소개합니다.안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 조튜브를 소개합니다. 안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 조튜브를 소개합니다.",
         author: "Joe튜브",
         date: "2023.11.04",

@@ -31,7 +31,7 @@ const Today = () => {
                             <p className='desc'>{today.desc}</p>
                             <div className='info'>
                                 <span className='author'>
-                                    <Link to={`/channel/${todayText.channelId}`}>
+                                    <Link to={`/channel/${today.channelId}`}>
                                         {today.author}
                                     </Link>
                                 </span>

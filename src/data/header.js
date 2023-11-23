@@ -2,7 +2,7 @@ import { CiAirportSign1 } from 'react-icons/ci';
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { CiFries } from "react-icons/ci";
+
 
 export const menuText = [
     {

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { CiFries } from "react-icons/ci";
 
 import { menuText, keywordText } from '../../data/header'
 

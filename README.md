@@ -1,7 +1,6 @@
 # <strong font size="30">나만의 여행 유튜브 사이트 만들기</strong>
 <img src="https://github.com/YunJiSung/youtube-project/blob/main/src/assets/img/project-min.png" style="border: 1px solid #000">   
-2 유튜브 API를 이용해서 여행하는 사이트를 만들겠습니다.   
-평소에 여행을 좋아하기 때문에.....  
+2 유튜브 API를 이용해서 여행하는 사이트를 만들었습니다.평소에 여행을 좋아하기 때문에.....  
 
 ## 셋팅
 1. `npx create-react-app youtube-project`   

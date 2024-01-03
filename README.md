@@ -1,6 +1,7 @@
 # <strong font size="30">나만의 여행 유튜브 사이트 만들기</strong>
+<img src="https://github.com/YunJiSung/youtube-project/blob/main/src/assets/img/project-min.png" style="border: 1px solid #000">   
 2 유튜브 API를 이용해서 여행하는 사이트를 만들겠습니다.   
-평소에 여행을 좋아하기 때문에.....   
+평소에 여행을 좋아하기 때문에.....  
 
 ## 셋팅
 1. `npx create-react-app youtube-project`   
@@ -47,5 +48,5 @@ Suspense라는 React의 신기술을 사용하면 컴포넌트의 랜더링을 �
 
 Suspense는 어떤 컴포넌트가 읽어야 하는 데이터가 아직 준비가 되지 않았다고 리액트에게 알려주는 새로운 매커니즘인데요. Suspense를 통해 컴포넌트가 비동기 데이터를 읽어오는 방법을 표준화하고자 리액트 팀의 장기적인 계획도 엿볼 수 있습니다. Suspense는 얼핏 보기에는 작은 아이디어처럼 보이지만 개인적으로 앞으로 리액트 개발 패러다임을 바꿀 정도로 파급력이 큰 기능이라고 생각합니다.   
 
-<img src="https://github.com/YunJiSung/youtube-project/blob/main/src/assets/img/project-min.png" style="border: 1px solid #000">   
+
 .

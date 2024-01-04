@@ -30,23 +30,6 @@ Postman은 개발자들이 API(Application Programming Interface)를 개발, 테
 
 7. 플러그인과 인티그레이션: Postman은 다양한 플러그인과 다른 도구들과의 인티그레이션을 지원하여 확장성이 뛰어납니다.      
 
-##React Suspense   
-
-const Home = lazy(() => import('./pages/Home'));   
-const Today = lazy(() => import('./pages/Today'));   
-const Traveler = lazy(() => import('./pages/Traveler'));   
-const Channel = lazy(() => import('./pages/Channel'));   
-const Search = lazy(() => import('./pages/Search'));   
-const Video = lazy(() => import('./pages/Video'));   
-
-Suspense는 2018년에 첫 시연되어 React 커뮤니티에서 큰 반향을 일으킨 후, React v16.6에 실험적인(experimental) 기능으로 추가되어 이미 알 만한 분들은 다들 한 번씩 써보셨을텐데요. 많은 리액트 개발자들이 Suspense가 React의 정식 기능이 되기를 목이 빠지게 기다렸던 걸로 아는데 드디어 React v18.0에서 이 일이 이루어졌습니다! 🥳   
-
-Suspense라는 React의 신기술을 사용하면 컴포넌트의 랜더링을 어떤 작업이 끝날 때까지 잠시 중단시키고 다른 컴포넌트를 먼저 랜더링할 수 있습니다. 이 작업이 꼭 어떠한 작업이 되어야 한다는 특별한 제약 사항은 없지만 아무래도 REST API나 GraphQL을 호출하여 네트워크를 통해 비동기로(asynchronously) 데이터를 가져오는 작업을 가장 먼저 떠오르게 됩니다.   
-
-비동기로 데이터를 읽어오는 것은 예전에 클래스로 컴포넌트를 작성하던 시절부터 훅(hook)을 사용하는 요즘까지도 항상 필요한 일이지만 React로 직접 구현하기에는 까다로운 면이 있지요. 그래서 일반적으로 데이터 로딩(data loading)을 전문으로 하는 라이브러리나 프레임워크에서 제공하는 데이터 로더(data loader)에 의존하는 경우가 많습니다.   
-
-Suspense는 어떤 컴포넌트가 읽어야 하는 데이터가 아직 준비가 되지 않았다고 리액트에게 알려주는 새로운 매커니즘인데요. Suspense를 통해 컴포넌트가 비동기 데이터를 읽어오는 방법을 표준화하고자 리액트 팀의 장기적인 계획도 엿볼 수 있습니다. Suspense는 얼핏 보기에는 작은 아이디어처럼 보이지만 개인적으로 앞으로 리액트 개발 패러다임을 바꿀 정도로 파급력이 큰 기능이라고 생각합니다.   
-
 개요
 이 플랫폼은 다양한 YouTube 채널로부터 여행 관련 콘텐츠를 수집하여 표시하는 데 중점을 두고 있습니다. React의 강력한 기능을 활용하여, 동적이고 사용자 친화적인 인터페이스를 제공함으로써 전반적인 탐색 경험을 향상시킵니다. YouTube API와의 통합은 여행 블로그, 가이드 및 기타 관련 콘텐츠의 원활하고 최신의 스트림을 보장하여 여행 애호가들을 위한 원스톱 목적지를 만듭니다.   
 
@@ -79,5 +62,23 @@ Suspense는 어떤 컴포넌트가 읽어야 하는 데이터가 아직 준비�
 
 결론
 이 프로젝트는 React를 활용하여 동적이고 API 기반의 웹 애플리케이션을 구축하는 잠재력을 보여줍니다. 모듈식 아키텍처와 효과적인 상태 관리 및 라우팅을 결합하여 콘텐츠 집대성 플랫폼을 위한 견고하고 확장 가능한 솔루션을 제공합니다.
+
+
+##React Suspense   
+
+const Home = lazy(() => import('./pages/Home'));   
+const Today = lazy(() => import('./pages/Today'));   
+const Traveler = lazy(() => import('./pages/Traveler'));   
+const Channel = lazy(() => import('./pages/Channel'));   
+const Search = lazy(() => import('./pages/Search'));   
+const Video = lazy(() => import('./pages/Video'));   
+
+Suspense는 2018년에 첫 시연되어 React 커뮤니티에서 큰 반향을 일으킨 후, React v16.6에 실험적인(experimental) 기능으로 추가되어 이미 알 만한 분들은 다들 한 번씩 써보셨을텐데요. 많은 리액트 개발자들이 Suspense가 React의 정식 기능이 되기를 목이 빠지게 기다렸던 걸로 아는데 드디어 React v18.0에서 이 일이 이루어졌습니다! 🥳   
+
+Suspense라는 React의 신기술을 사용하면 컴포넌트의 랜더링을 어떤 작업이 끝날 때까지 잠시 중단시키고 다른 컴포넌트를 먼저 랜더링할 수 있습니다. 이 작업이 꼭 어떠한 작업이 되어야 한다는 특별한 제약 사항은 없지만 아무래도 REST API나 GraphQL을 호출하여 네트워크를 통해 비동기로(asynchronously) 데이터를 가져오는 작업을 가장 먼저 떠오르게 됩니다.   
+
+비동기로 데이터를 읽어오는 것은 예전에 클래스로 컴포넌트를 작성하던 시절부터 훅(hook)을 사용하는 요즘까지도 항상 필요한 일이지만 React로 직접 구현하기에는 까다로운 면이 있지요. 그래서 일반적으로 데이터 로딩(data loading)을 전문으로 하는 라이브러리나 프레임워크에서 제공하는 데이터 로더(data loader)에 의존하는 경우가 많습니다.   
+
+Suspense는 어떤 컴포넌트가 읽어야 하는 데이터가 아직 준비가 되지 않았다고 리액트에게 알려주는 새로운 매커니즘인데요. Suspense를 통해 컴포넌트가 비동기 데이터를 읽어오는 방법을 표준화하고자 리액트 팀의 장기적인 계획도 엿볼 수 있습니다. Suspense는 얼핏 보기에는 작은 아이디어처럼 보이지만 개인적으로 앞으로 리액트 개발 패러다임을 바꿀 정도로 파급력이 큰 기능이라고 생각합니다.   
 
 
